@@ -1,0 +1,6 @@
+---
+resources:
+  - ../base
+namespace: deployment-metro-rbd
+commonLabels:
+  app: deployment-metro-rbd
