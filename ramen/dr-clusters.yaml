@@ -2,13 +2,13 @@
 apiVersion: ramendr.openshift.io/v1alpha1
 kind: DRCluster
 metadata:
-  name: dr1
+  name: metrodr-cls-01-849
 spec:
-  s3ProfileName: minio-on-dr1
+  s3ProfileName: s3profile-metrodr-cls-01-849-ocs-external-storagecluster
 ---
 apiVersion: ramendr.openshift.io/v1alpha1
 kind: DRCluster
 metadata:
-  name: dr2
+  name: metrodr-cls-01-849
 spec:
-  s3ProfileName: minio-on-dr2
+  s3ProfileName: s3profile-metrodr-cls-02-850-ocs-external-storagecluster
