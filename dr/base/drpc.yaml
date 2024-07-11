@@ -9,7 +9,7 @@ spec:
     name: mdr-policy01
   placementRef:
     kind: Placement
-    name: placement
+    name: ocm-ramen-test0710-placement-1
   pvcSelector:
     matchLabels:
       appname: busybox
